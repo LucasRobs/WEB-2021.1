@@ -1,0 +1,118 @@
+/* HEADER */
+
+#headerContainer{
+    height: 5rem;
+    border-bottom: 3px solid var(--pink-omni);
+
+    background: var(--black-omni);
+
+    color: var(--white-ice);
+
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#headerContent span{
+    position: relative;
+    right: 17rem;
+}
+
+#headerContent span img{
+    width: 3rem;
+    height: 3rem;
+}
+
+#headerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#headerContent{
+    font-weight: bold;
+}
+
+#headerContent a:hover{
+    color: var(--yellow-omni);
+}
+
+#headerContent a + a{
+    margin-left: 5rem;
+}
+
+/* SECTION */
+
+#contentContainer{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: calc(100vh - 5rem);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contentContainer img{
+    width:  45rem;
+    height:  45rem;
+}
+#sectionContainer{
+    max-width: 600px;
+    font-family: rajdhani;
+}
+
+#sectionContainer h1{
+    font-size: 3rem;
+}
+
+#sectionContainer p{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    font-size:  2rem;
+}
+
+#sectionContainer table{
+    margin-top: 2rem;
+    position: relative;
+    margin-left: 5.5rem;
+}
+
+#table{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 3rem;
+}
+
+#table img{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+#table label{
+    position: relative;
+    font-size: 1rem;
+}
+
+#label-html{
+    margin-left: 1.2rem;
+}
+
+#label-css{
+    margin: 1.5rem;
+}
+
+#label-react{
+    margin-left: 1.2rem;
+}
+
+#label-next{
+    margin-left: 1rem;
+}
+
